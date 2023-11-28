@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/dSD9Oc4sU5x2XT1aZ627SWijRrBCFUl9mKcQwpr4wQ=",
+  "Hash": "TqSnmWl6t9GRXxRLHcC4lpQkjOBfq5UCzeIhawtS0Qw=",
   "Source": "CarteleraCine",
   "BasePath": "_content/CarteleraCine",
   "Mode": "Default",
@@ -3024,6 +3024,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\Anakin.jpg",
+      "SourceId": "CarteleraCine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\",
+      "BasePath": "_content/CarteleraCine",
+      "RelativePath": "uploads/Anakin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Anakin.jpg"
+    },
+    {
+      "Identity": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\John.jpg",
+      "SourceId": "CarteleraCine",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\",
+      "BasePath": "_content/CarteleraCine",
+      "RelativePath": "uploads/John.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\John.jpg"
     }
   ]
 }

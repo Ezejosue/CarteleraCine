@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="PeliculaId" />
             <div class="form-group">
@@ -48,10 +48,17 @@
                 <input asp-for="TipoButacas" class="form-control" />
                 <span asp-validation-for="TipoButacas" class="text-danger"></span>
             </div>
+             <div class="form-group">
+                <label asp-for="PosterFile" class="control-label">Póster</label>
+                <input asp-for="PosterFile" type="file" class="form-control" />
+                <span asp-validation-for="PosterFile" class="text-danger"></span>
+            </div>
             <div class="form-group">
-                <label asp-for="Poster" class="control-label"></label>
-                <input asp-for="Poster" class="form-control" />
-                <span asp-validation-for="Poster" class="text-danger"></span>
+                @* Mostrar la imagen actual *@
+                @if (Model.Poster != null)
+                {
+                    <img src="@Model.Poster" alt="Póster actual" style="width:100px; height:auto;" />
+                }
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

@@ -103,7 +103,7 @@ namespace CarteleraCine.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("PeliculaId,Titulo,Sinopsis,Director,Genero,Clasificacion,Duracion,TipoButacas,Poster")] Pelicula pelicula)
+        public async Task<IActionResult> Edit(int id, [Bind("PeliculaId,Titulo,Sinopsis,Director,Genero,Clasificacion,Duracion,TipoButacas,PosterFile")] Pelicula pelicula)
         {
             if (id != pelicula.PeliculaId)
             {
@@ -114,7 +114,35 @@ namespace CarteleraCine.Controllers
             {
                 try
                 {
-                    _context.Update(pelicula);
+                    var peliculaToUpdate = await _context.Peliculas.FindAsync(id);
+                    if (peliculaToUpdate == null)
+                    {
+                        return NotFound();
+                    }
+
+                    if (pelicula.PosterFile != null && pelicula.PosterFile.Length > 0)
+                    {
+                        var fileName = Path.GetFileName(pelicula.PosterFile.FileName);
+                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await pelicula.PosterFile.CopyToAsync(fileStream);
+                        }
+
+                        peliculaToUpdate.Poster = "/uploads/" + fileName; 
+                    }
+
+                    peliculaToUpdate.Titulo = pelicula.Titulo;
+                    peliculaToUpdate.Sinopsis = pelicula.Sinopsis;
+                    peliculaToUpdate.Director = pelicula.Director;
+                    peliculaToUpdate.Genero = pelicula.Genero;
+                    peliculaToUpdate.Clasificacion = pelicula.Clasificacion;
+                    peliculaToUpdate.Duracion = pelicula.Duracion;
+                    peliculaToUpdate.TipoButacas = pelicula.TipoButacas;
+                    
+
+                    _context.Update(peliculaToUpdate);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
