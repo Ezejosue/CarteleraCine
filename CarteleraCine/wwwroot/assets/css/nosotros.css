@@ -1,0 +1,65 @@
+
+.c-item{
+    max-height: 550px;
+}
+
+
+/*NOSOTROS*/
+.container{
+    width: 100%;
+    margin: auto;
+}
+.section_2{
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.title{
+    font-family: sans-serif ;
+    font-size: 35PX;
+    color: blueviolet;
+    font-weight: bold;
+    margin: 25px 0;
+}
+.us{
+    display: flex;
+}
+.texto{
+    width: 60%;
+    padding: 0 100px 0 0 ;
+
+}
+.parrafo{
+    font-family: sans-serif ;
+    font-size: 15PX;
+    color: rgb(133, 133, 133);
+    text-align: justify;
+}
+.parrafos{
+    margin: 5px 0;
+}
+.sig{
+    margin: 20px 0;
+}
+.rs{
+    font-family: sans-serif ;
+    font-size: 15PX;
+    color: blueviolet;
+    font-weight: bold;
+    margin: 25px 0 ;
+}
+.icon-rs{
+    margin: 25px 0;
+}
+.link-rs{
+    margin: 0 10px;
+}
+.img{
+    width: 40%;
+
+}
+.imagen_pre{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 4px;
+}

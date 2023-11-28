@@ -1,0 +1,71 @@
+.logo-cine {
+    width: 50px;
+}
+
+.alto {
+    height: 500px;
+}
+
+.tamaño {
+    height: 300px;
+    width: 275Px;
+    margin: auto;
+    box-shadow: -10px 10px 15px #888888;
+    margin-top: 10px;
+}
+
+h3 {
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+}
+
+.card-text {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+.card-title {
+    height: 25PX;
+}
+
+p {
+    font-family: calibri;
+    color: gray;
+}
+
+img:hover {
+    filter: saturate(180%);
+}
+
+img:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.btn-btn-primary {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f2595e;
+    border-color: #F69DA1;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+img {
+    box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.3);
+}
