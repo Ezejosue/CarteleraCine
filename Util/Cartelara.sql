@@ -19,6 +19,10 @@ CREATE TABLE Peliculas (
 
 GO
 
+ALTER TABLE Peliculas
+ALTER COLUMN Poster NVARCHAR(MAX);
+GO
+
 -- Crear Tabla Calificaciones
 CREATE TABLE Calificaciones (
     CalificacionID INT PRIMARY KEY IDENTITY(1,1),
