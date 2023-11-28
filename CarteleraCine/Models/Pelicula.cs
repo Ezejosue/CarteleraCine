@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CarteleraCine.Models;
 
@@ -21,7 +22,12 @@ public partial class Pelicula
 
     public string? TipoButacas { get; set; }
 
-    public byte[]? Poster { get; set; }
+    public string? Poster { get; set; }
+
+
+    [NotMapped]
+    public IFormFile? PosterFile { get; set; }
+
 
     public virtual ICollection<Calificacione> Calificaciones { get; set; } = new List<Calificacione>();
 

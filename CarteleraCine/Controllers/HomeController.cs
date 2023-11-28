@@ -1,7 +1,6 @@
 ﻿using CarteleraCine.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using CarteleraCine.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarteleraCine.Controllers

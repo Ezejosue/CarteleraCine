@@ -3,10 +3,17 @@
 @{
     ViewData["Title"] = "Inicio Peliculas";
 }
-<div class="container">
-     <div class="row mt-5 mb-5">
-         <div class="col-md-12">
 
+<div class="container">
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    <div class="row mt-5 mb-5">
+        <div class="col-md-12">
             <p>
                 <a class="btn btn-success" asp-action="Create">Crear Producto</a>
             </p>
@@ -35,9 +42,9 @@
                             @Html.DisplayNameFor(model => model.TipoButacas)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Poster)
+                            @Html.DisplayNameFor(model => model.Poster) <!-- Cambiado a PosterUrl -->
                         </th>
-                        <th></th>
+                        <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -66,7 +73,10 @@
                                 @Html.DisplayFor(modelItem => item.TipoButacas)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.Poster)
+                                @if (item.Poster != null)
+                                {
+                                    <img src="@item.Poster" alt="Póster" style="width:100px; height:auto;" />
+                                }
                             </td>
                             <td>
                                 <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.PeliculaId">Edit</a>
@@ -77,7 +87,6 @@
                     }
                 </tbody>
             </table>
-
         </div>
-     </div>
+    </div>
 </div>

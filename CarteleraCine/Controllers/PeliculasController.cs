@@ -55,12 +55,28 @@ namespace CarteleraCine.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PeliculaId,Titulo,Sinopsis,Director,Genero,Clasificacion,Duracion,TipoButacas,Poster")] Pelicula pelicula)
+        public async Task<IActionResult> Create([Bind("PeliculaId,Titulo,Sinopsis,Director,Genero,Clasificacion,Duracion,TipoButacas,PosterFile")] Pelicula pelicula)
         {
             if (ModelState.IsValid)
             {
+                if (pelicula.PosterFile != null && pelicula.PosterFile.Length > 0)
+                {
+                    var fileName = Path.GetFileName(pelicula.PosterFile.FileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await pelicula.PosterFile.CopyToAsync(fileStream);
+                    }
+
+                    pelicula.Poster = "/uploads/" + fileName;
+                }
+
+
                 _context.Add(pelicula);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Película creada con éxito."; // Establecer el mensaje
+
                 return RedirectToAction(nameof(Index));
             }
             return View(pelicula);
