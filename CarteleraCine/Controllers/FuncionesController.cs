@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarteleraCine.Models;
+using System.Globalization;
 
 namespace CarteleraCine.Controllers
 {
@@ -46,47 +47,86 @@ namespace CarteleraCine.Controllers
         }
 
         // GET: Funciones/Create
+        [HttpGet]
         public IActionResult Create()
         {
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId");
-            ViewData["SalaId"] = new SelectList(_context.Salas, "SalaId", "SalaId");
-            return View();
-        }
+            FuncionP funcionP = new FuncionP()
+            {
+                oFuncion = new Funcione(),
+                oIdPelicula = _context.Peliculas.Select(Pelicula => new SelectListItem()
+                {
+                    Text = Pelicula.Titulo,
+                    Value = Pelicula.PeliculaId.ToString()
+                }).ToList(),
+                oIdSala = _context.Salas.Select(Sala => new SelectListItem()
+                {
+                    Text = Sala.Nombre,
+                    Value = Sala.SalaId.ToString()
+                }).ToList()
 
+
+            };
+
+
+            return View(funcionP);
+        }
         // POST: Funciones/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FuncionId,PeliculaId,SalaId,Horario")] Funcione funcione)
+        public IActionResult Create(FuncionP funcion)
         {
-            if (ModelState.IsValid)
+            Console.WriteLine(funcion.oFuncion.SalaId + " " + funcion.oFuncion.PeliculaId + " " + funcion.oFuncion.Horario);
+
+            string fechaHoraString = funcion.oFuncion.Horario.ToString();
+
+
+            if (DateTime.TryParse(fechaHoraString, CultureInfo.InvariantCulture, DateTimeStyles.None, out var fechaHora))
             {
-                _context.Add(funcione);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                funcion.oFuncion.Horario = fechaHora;
+
+
+                Console.WriteLine(funcion.oFuncion.SalaId + " " + funcion.oFuncion.PeliculaId + " " + funcion.oFuncion.Horario);
+                if (funcion.oFuncion.FuncionId == 0)
+                {
+                    _context.Funciones.Add(funcion.oFuncion);
+                }
+
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId", funcione.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "SalaId", "SalaId", funcione.SalaId);
-            return View(funcione);
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+
         }
 
         // GET: Funciones/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Funciones == null)
+            FuncionP funcionP = new FuncionP()
             {
-                return NotFound();
+                oFuncion = new Funcione(),
+                oIdPelicula = _context.Peliculas.Select(Pelicula => new SelectListItem()
+                {
+                    Text = Pelicula.Titulo,
+                    Value = Pelicula.PeliculaId.ToString()
+                }).ToList(),
+                oIdSala = _context.Salas.Select(Sala => new SelectListItem()
+                {
+                    Text = Sala.Nombre,
+                    Value = Sala.SalaId.ToString()
+                }).ToList()
+
+
+            };
+
+            if (id!=0)
+            {
+                funcionP.oFuncion = _context.Funciones.Find(id);
             }
 
-            var funcione = await _context.Funciones.FindAsync(id);
-            if (funcione == null)
-            {
-                return NotFound();
-            }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId", funcione.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "SalaId", "SalaId", funcione.SalaId);
-            return View(funcione);
+            return View(funcionP);
         }
 
         // POST: Funciones/Edit/5
@@ -94,36 +134,19 @@ namespace CarteleraCine.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("FuncionId,PeliculaId,SalaId,Horario")] Funcione funcione)
+        public async Task<IActionResult> Edit(FuncionP funcion)
         {
-            if (id != funcione.FuncionId)
+            if (funcion.oFuncion.FuncionId == 0)
             {
-                return NotFound();
+                _context.Funciones.Add(funcion.oFuncion);
+            }
+            else { 
+                _context.Funciones.Update(funcion.oFuncion);
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(funcione);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!FuncioneExists(funcione.FuncionId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId", funcione.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "SalaId", "SalaId", funcione.SalaId);
-            return View(funcione);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
         // GET: Funciones/Delete/5

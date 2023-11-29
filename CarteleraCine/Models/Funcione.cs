@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CarteleraCine.Models;
 
@@ -11,6 +12,8 @@ public partial class Funcione
 
     public int SalaId { get; set; }
 
+
+    [DataType(DataType.DateTime)]
     public DateTime Horario { get; set; }
 
     public virtual Pelicula Pelicula { get; set; } = null!;

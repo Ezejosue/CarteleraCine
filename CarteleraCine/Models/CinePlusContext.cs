@@ -48,7 +48,7 @@ public partial class CinePlusContext : DbContext
             entity.HasKey(e => e.FuncionId).HasName("PK__Funcione__F22456E418DB42BF");
 
             entity.Property(e => e.FuncionId).HasColumnName("FuncionID");
-            entity.Property(e => e.Horario).HasColumnType("datetime");
+            entity.Property(e => e.Horario).HasColumnName("Horario");
             entity.Property(e => e.PeliculaId).HasColumnName("PeliculaID");
             entity.Property(e => e.SalaId).HasColumnName("SalaID");
 

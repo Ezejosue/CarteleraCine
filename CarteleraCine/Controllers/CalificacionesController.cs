@@ -44,11 +44,22 @@ namespace CarteleraCine.Controllers
             return View(calificacione);
         }
 
+
+
         // GET: Calificaciones/Create
+        [HttpGet]
         public IActionResult Create()
         {
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId");
-            return View();
+            CalificacionP calificacionP = new CalificacionP() {
+                oCalificacion = new Calificacione(),
+                oIdPelicula = _context.Peliculas.Select(Pelicula => new SelectListItem() {
+                    Text = Pelicula.Titulo,
+                    Value = Pelicula.PeliculaId.ToString()
+                }).ToList()
+            };
+            
+
+            return View(calificacionP);
         }
 
         // POST: Calificaciones/Create
@@ -56,33 +67,40 @@ namespace CarteleraCine.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CalificacionId,PeliculaId,Puntuacion,FechaCalificacion")] Calificacione calificacione)
+        public IActionResult Create(CalificacionP calificacion)
         {
-            if (ModelState.IsValid)
+
+            if (calificacion.oCalificacion.CalificacionId==0)
             {
-                _context.Add(calificacione);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                _context.Calificaciones.Add(calificacion.oCalificacion);
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId", calificacione.PeliculaId);
-            return View(calificacione);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+
         }
 
         // GET: Calificaciones/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Calificaciones == null)
+
+            CalificacionP calificacionP = new CalificacionP()
             {
-                return NotFound();
+                oCalificacion = new Calificacione(),
+                oIdPelicula = _context.Peliculas.Select(Pelicula => new SelectListItem()
+                {
+                    Text = Pelicula.Titulo,
+                    Value = Pelicula.PeliculaId.ToString()
+                }).ToList()
+            };
+
+            if (id!=0)
+            {
+                calificacionP.oCalificacion = _context.Calificaciones.Find(id);
             }
 
-            var calificacione = await _context.Calificaciones.FindAsync(id);
-            if (calificacione == null)
-            {
-                return NotFound();
-            }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId", calificacione.PeliculaId);
-            return View(calificacione);
+          
+            return View(calificacionP);
         }
 
         // POST: Calificaciones/Edit/5
@@ -90,35 +108,19 @@ namespace CarteleraCine.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CalificacionId,PeliculaId,Puntuacion,FechaCalificacion")] Calificacione calificacione)
+        public async Task<IActionResult> Edit(CalificacionP calificacion)
         {
-            if (id != calificacione.CalificacionId)
+            if (calificacion.oCalificacion.CalificacionId==0)
             {
-                return NotFound();
+                _context.Calificaciones.Add(calificacion.oCalificacion);
+            }
+            else
+            {
+                _context.Calificaciones.Update(calificacion.oCalificacion);
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(calificacione);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CalificacioneExists(calificacione.CalificacionId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "PeliculaId", "PeliculaId", calificacione.PeliculaId);
-            return View(calificacione);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // GET: Calificaciones/Delete/5

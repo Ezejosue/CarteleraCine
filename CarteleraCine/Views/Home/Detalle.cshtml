@@ -4,25 +4,12 @@
     ViewData["Title"] = "Detalle";
 }
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <a href="https://youtu.be/VvCyqVG1HPI" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="~/assets/images/mario.jpg" class="d-block w-100" alt="..." height="500">
-                <div class="carousel-caption">
-                    <img class="m-5" src="https://youtu.be/VvCyqVG1HPI" alt="" style="width: 70px;">
-                </div>
-        </div>
-        </a>
-    </div>
-</div>
-
 <div class="container pb-5">
 
-    <div class="row pt-2 gx-4" style="position: relative;top: -92px;">
+    <div class="row pt-2 gx-4">
         <div class="col-md-3" style="background: white;padding: 5px;border-radius: 10px;">
             <div class="card">
-                <img src="~/assets/images/mario.jpg" class="card-img-top" alt="...">
+                <img src="@Model.Poster" class="card-img-top" alt="...">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <h6 class="text-uppercase text-danger" style="font-weight: bold;">@Model.Titulo</h6>
@@ -48,7 +35,7 @@
             </div>
         </div>
 
-        <div class="col-md-9" style="background: white;padding: 5px 40px;border-radius: 10px;"
+        <div class="col-md-9" style="background: white;padding: 5px 40px;border-radius: 10px;">
             <h1 class="card-title mb-2">@Model.Titulo</h1>
             <p class="card-text mb-4">
                 <span class="badge bg-secondary font-monospace">@Model.Clasificacion</span>
