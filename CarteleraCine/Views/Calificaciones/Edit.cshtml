@@ -1,4 +1,4 @@
-﻿@model CarteleraCine.Models.Calificacione
+﻿@model CarteleraCine.Models.CalificacionP
 
 @{
     ViewData["Title"] = "Edit";
@@ -12,21 +12,24 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="CalificacionId" />
+            <input type="hidden" asp-for="oCalificacion.CalificacionId" />
             <div class="form-group">
-                <label asp-for="PeliculaId" class="control-label"></label>
-                <select asp-for="PeliculaId" class="form-control" asp-items="ViewBag.PeliculaId"></select>
-                <span asp-validation-for="PeliculaId" class="text-danger"></span>
+                <label asp-for="oCalificacion.Pelicula.PeliculaId" class="control-label">Película</label>
+                <select asp-for="oCalificacion.PeliculaId" class="form-control" asp-items="@Model.oIdPelicula">
+                    <option selected disabled>-- Seleccionar --</option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="oCalificacion.Puntuacion" class="control-label"></label>
+                <input asp-for="oCalificacion.Puntuacion" class="form-control" />
+                <span asp-validation-for="oCalificacion.Puntuacion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Puntuacion" class="control-label"></label>
-                <input asp-for="Puntuacion" class="form-control" />
-                <span asp-validation-for="Puntuacion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FechaCalificacion" class="control-label"></label>
-                <input asp-for="FechaCalificacion" class="form-control" />
-                <span asp-validation-for="FechaCalificacion" class="text-danger"></span>
+                <label asp-for="oCalificacion.FechaCalificacion" class="control-label"></label>
+                <input asp-for="oCalificacion.FechaCalificacion" class="form-control" />
+                <span asp-validation-for="oCalificacion.FechaCalificacion" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
