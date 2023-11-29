@@ -4,79 +4,35 @@
     ViewData["Title"] = "Inicio";
 }
 
-<div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="~/assets/images/estrenos.jpg" class="d-block w-100 alto" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="~/assets/images/portada.jpg" class="d-block w-100 alto" alt="jumanji">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
 
 <div class="container">
     <!-- end carrousel -->
     <div class="w-100 text-center mt-3">
-        <h3>PELICULAS EN ESTRENO</h3>
+        <h3>CARTELERA CINE+</h3>
     </div>
-    <!-- card peliculas -->
+   
     <div class="row">
         @foreach (var item in Model)
         {
-            <!--CARTA DE MARIO BROS-->
-            <div class="col-sm-6 col-md-4">
-
-                <a asp-action="Detalle" asp-route-id="@item.PeliculaId">
-                    <div class="card">
-                        <h5 class="pt-1 pb-1 rounded card-text text-bg-warning text-white text-center justify-">ESTRENO</h5>
-                        <a class="text-center"><img src="assets/images/mario.jpg" class="card-img tamaño " alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center text-dark">@Html.DisplayFor(modelItem => item.Titulo)</h5>
-                            <h5 class="pt-2 pb-2 card-text text-bg-dark text-white text-center">DISPONIBLE EN 2D Y 3D</h5>
-                            <p class="card-text"></p>
+            <div class="col-sm-6 col-md-6">
+                <a asp-action="Detalle" asp-route-id="@item.PeliculaId" style="text-decoration:none">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="@Html.DisplayFor(modelItem => item.Poster)" style="height:250;" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Titulo)</h5>
+                                    <p class="card-text">@Html.DisplayFor(modelItem => item.Sinopsis)</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>
-             </div>
-            <!--FIN CARTA MARIO BROS-->
-                   
-        }
-    </div>
-    <!--FIN CARTA SUZUME-->
-</div>
-
-<div class="container">
-    <div class="w-100 text-center mt-3">
-        <h3>CARTELERA DE LA SEMANA</h3>
-    </div>
-    <div class="row">
-        <!--CARTA DE MARIO BROS-->
-        <div class="col-sm-6 col-md-4">
-            <div class="card">
-                <h5 class="pt-1 pb-1 rounded card-text text-bg-warning text-white text-center justify-">
-                    ESTRENO
-                </h5>
-                <a class="text-center"><img src="assets/images/mario.jpg" class="card-img tamaño " alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title text-center text-dark">Super Mario Bros</h5>
-                    <h5 class="pt-2 pb-2 card-text text-bg-dark text-white text-center">
-                        DISPONIBLE EN 2D Y 3D
-                    </h5>
-                    <p class="card-text"></p>
-                </div>
             </div>
-        </div>
-        <!--FIN CARTA MARIO BROS-->
+        }
     </div>
 </div>
 

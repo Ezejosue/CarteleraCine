@@ -1,716 +1,728 @@
 {
   "Files": [
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CarteleraCine.bundle.scp.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CarteleraCine.bundle.scp.css",
       "PackagePath": "staticwebassets\\CarteleraCine.bundle.scp.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\custom.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\custom.css",
       "PackagePath": "staticwebassets\\assets\\css\\custom.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\customD.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\customD.css",
       "PackagePath": "staticwebassets\\assets\\css\\customD.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\nosotros.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\css\\nosotros.css",
       "PackagePath": "staticwebassets\\assets\\css\\nosotros.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\.DS_Store",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\.DS_Store",
       "PackagePath": "staticwebassets\\assets\\images\\.DS_Store"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Adiel.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Adiel.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\Adiel.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Capuchino.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Capuchino.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\Capuchino.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\CapuchinoM.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\CapuchinoM.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\CapuchinoM.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Coca.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Coca.png",
       "PackagePath": "staticwebassets\\assets\\images\\Coca.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Coldplay.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Coldplay.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\Coldplay.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Gerardo.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Gerardo.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\Gerardo.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Imagenes.zip",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Imagenes.zip",
       "PackagePath": "staticwebassets\\assets\\images\\Imagenes.zip"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Josue.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Josue.png",
       "PackagePath": "staticwebassets\\assets\\images\\Josue.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Josue2.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Josue2.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\Josue2.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\PalomitasG.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\PalomitasG.png",
       "PackagePath": "staticwebassets\\assets\\images\\PalomitasG.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\PalomitasM.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\PalomitasM.png",
       "PackagePath": "staticwebassets\\assets\\images\\PalomitasM.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\PalomitasPeque.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\PalomitasPeque.png",
       "PackagePath": "staticwebassets\\assets\\images\\PalomitasPeque.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Sofia.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Sofia.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\Sofia.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\TeDurazno.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\TeDurazno.png",
       "PackagePath": "staticwebassets\\assets\\images\\TeDurazno.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\TeFrambuesa.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\TeFrambuesa.png",
       "PackagePath": "staticwebassets\\assets\\images\\TeFrambuesa.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\TeLimon.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\TeLimon.png",
       "PackagePath": "staticwebassets\\assets\\images\\TeLimon.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Vladimir.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\Vladimir.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\Vladimir.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\air.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\air.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\air.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\bannerDetalle2048x600.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\bannerDetalle2048x600.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\bannerDetalle2048x600.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\cafe_vy4pu.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\cafe_vy4pu.png",
       "PackagePath": "staticwebassets\\assets\\images\\cafe_vy4pu.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozo.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozo.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\calabozo.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\calabozos.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos.png",
       "PackagePath": "staticwebassets\\assets\\images\\calabozos.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos1.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\calabozos1.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos1.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\calabozos1.png",
       "PackagePath": "staticwebassets\\assets\\images\\calabozos1.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\capuchinoM.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\capuchinoM.png",
       "PackagePath": "staticwebassets\\assets\\images\\capuchinoM.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\cocalata.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\cocalata.png",
       "PackagePath": "staticwebassets\\assets\\images\\cocalata.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo1.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\combo1.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo2.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\combo2.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo3.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\combo3.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo4.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\combo4.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo5.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\combo5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\combo5.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\descarga.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\descarga.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\descarga.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\dulceria.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\dulceria.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\dulceria.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\estrenos.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\estrenos.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\estrenos.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exor.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exor.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\exor.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exor1.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exor1.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\exor1.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcista.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcista.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\exorcista.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcista1.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcista1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\exorcista1.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcista1.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcista1.png",
       "PackagePath": "staticwebassets\\assets\\images\\exorcista1.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcits.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\exorcits.png",
       "PackagePath": "staticwebassets\\assets\\images\\exorcits.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\facebook_109862.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\facebook_109862.png",
       "PackagePath": "staticwebassets\\assets\\images\\facebook_109862.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\favicon.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img1.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\img1.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img2.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\img2.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img3.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\img3.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img4.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\img4.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\imgNosotros.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\imgNosotros.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\imgNosotros.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\instagam_109863.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\instagam_109863.png",
       "PackagePath": "staticwebassets\\assets\\images\\instagam_109863.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\jhon4.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\jhon4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\jhon4.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\john.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john1.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\john1.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john2.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\john2.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john5.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\john5.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john6.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\john6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\john6.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\kevin.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\kevin.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\kevin.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\logo.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario.jpeg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\mario.jpeg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\mario.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario1.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\mario1.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario1.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mario1.png",
       "PackagePath": "staticwebassets\\assets\\images\\mario1.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mariop.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\mariop.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\mariop.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\papa.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\papa.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\papa.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\portada.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\portada.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portada.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\presa.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\presa.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\presa.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\suzume.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\suzume.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\suzume.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\whatsapp_109861.png",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\images\\whatsapp_109861.png",
       "PackagePath": "staticwebassets\\assets\\images\\whatsapp_109861.png"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\assets\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\Anakin.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\Anakin.jpg",
       "PackagePath": "staticwebassets\\uploads\\Anakin.jpg"
     },
     {
-      "Id": "E:\\Proyectos\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\John.jpg",
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\John.jpg",
       "PackagePath": "staticwebassets\\uploads\\John.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\im1.png",
+      "PackagePath": "staticwebassets\\uploads\\im1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\img2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\wwwroot\\uploads\\luca-bravo-zAjdgNXsMeg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\uploads\\luca-bravo-zAjdgNXsMeg-unsplash.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarteleraCine.Microsoft.AspNetCore.StaticWebAssets.props",
