@@ -54,6 +54,8 @@ CREATE TABLE Funciones (
 );
 GO
 
+ALTER TABLE Funciones
+ALTER COLUMN Horario DATETIME2;
 
 -- Procedimiento Almacenado para Obtener el Ranking de Películas
 CREATE PROCEDURE GetTopRankedMovies AS

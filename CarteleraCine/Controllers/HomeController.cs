@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
+using X.PagedList;
 
 namespace CarteleraCine.Controllers
 {
@@ -16,11 +17,20 @@ namespace CarteleraCine.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? page)
         {
-            return _context.Peliculas != null ?
+            /*return _context.Peliculas != null ?
                          View(await _context.Peliculas.ToListAsync()) :
-                         Problem("Entity set 'CinePlusContext.Peliculas'  is null.");
+                         Problem("Entity set 'CinePlusContext.Peliculas'  is null.");*/
+
+            int pageNumber = page ?? 1;
+            int pageSize = 4; // Una tarjeta por página
+
+            var model = _context.Peliculas
+               .Include(p => p.Calificaciones)
+               .ToPagedList(pageNumber, pageSize);
+
+            return View(model);
         }
 
 
