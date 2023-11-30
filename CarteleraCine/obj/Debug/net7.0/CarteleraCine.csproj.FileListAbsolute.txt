@@ -757,3 +757,7 @@ C:\Users\kevin\Desktop\CarteleraCine\CarteleraCine\obj\Debug\net7.0\refint\Carte
 C:\Users\kevin\Desktop\CarteleraCine\CarteleraCine\obj\Debug\net7.0\CarteleraCine.pdb
 C:\Users\kevin\Desktop\CarteleraCine\CarteleraCine\obj\Debug\net7.0\CarteleraCine.genruntimeconfig.cache
 C:\Users\kevin\Desktop\CarteleraCine\CarteleraCine\obj\Debug\net7.0\ref\CarteleraCine.dll
+C:\Users\HP\Documents\CarteleraCine\CarteleraCine\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\HP\Documents\CarteleraCine\CarteleraCine\bin\Debug\net7.0\X.PagedList.dll
+C:\Users\HP\Documents\CarteleraCine\CarteleraCine\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+C:\Users\HP\Documents\CarteleraCine\CarteleraCine\obj\Debug\net7.0\CarteleraCine.MvcApplicationPartsAssemblyInfo.cs

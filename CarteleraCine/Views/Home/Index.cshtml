@@ -1,4 +1,6 @@
-﻿@model IEnumerable<CarteleraCine.Models.Pelicula>
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
+@model X.PagedList.IPagedList<CarteleraCine.Models.Pelicula>
 
 @{
     ViewData["Title"] = "Inicio";
@@ -25,7 +27,16 @@
                                 <div class="card-body">
                                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.Titulo)</h5>
                                     <p class="card-text">@Html.DisplayFor(modelItem => item.Sinopsis)</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">
+                                        @foreach (var calificacion in item.Calificaciones)
+                                        {
+                                                @for (int i = 0; i < calificacion.Puntuacion; i++)
+                                                {
+                                                        <span class="fa fa-star text-warning"></span>                                                
+                                                }
+                                          
+                                         }
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -34,6 +45,15 @@
             </div>
         }
     </div>
+
+
+     <div class="text-center">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+        {
+            Display = PagedListDisplayMode.IfNeeded,
+            LiElementClasses = new string[] { "page-item" },
+            PageClasses = new string[] { "page-link" }
+        })
+    </div>
+
 </div>
-
-
