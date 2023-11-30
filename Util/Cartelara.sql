@@ -85,3 +85,41 @@ BEGIN
     ORDER BY Titulo;
 END;
 GO
+
+
+
+INSERT INTO Peliculas (Titulo, Sinopsis, Director, Genero, Clasificacion, Duracion, TipoButacas, Poster)
+VALUES
+    ('El Padrino', 'Un poderoso jefe de la mafia busca mantener el control de su imperio criminal.', 'Francis Ford Coppola', 'Drama', 'R', 175, 'VIP', '/uploads/John.jpg'),
+    ('Titanic', 'Un romance épico entre pasajeros a bordo del famoso barco que se hunde.', 'James Cameron', 'Romance', 'PG-13', 195, 'Estándar', '/uploads/John.jpg'),
+    ('Star Wars: Episodio IV', 'Un joven granjero se convierte en un héroe galáctico en una galaxia lejana.', 'George Lucas', 'Ciencia ficción', 'PG', 121, 'IMAX', '/uploads/John.jpg'),
+    ('Jurassic Park', 'Un parque de dinosaurios genéticamente recreados se sale de control.', 'Steven Spielberg', 'Aventura', 'PG-13', 127, 'Estándar', '/uploads/John.jpg'),
+    ('Inception', 'Un ladrón de sueños entra en la mente de las personas para robar secretos.', 'Christopher Nolan', 'Ciencia ficción', 'PG-13', 148, 'VIP', '/uploads/John.jpg');
+GO
+
+INSERT INTO Calificaciones (PeliculaID, Puntuacion, FechaCalificacion)
+VALUES
+    (4, 4, GETDATE()),
+    (5, 5, GETDATE()),
+    (6, 3, GETDATE()),
+    (7, 4, GETDATE()),
+    (8, 5, GETDATE()),
+    (9, 3, GETDATE());
+	
+GO
+
+
+INSERT INTO Funciones (PeliculaID, SalaID, Horario)
+VALUES
+    (4, 1, '2023-12-01 15:00:00'), -- Ejemplo de horario para Película 4
+    (5, 1, '2023-12-01 17:30:00'), -- Ejemplo de horario para Película 5
+    (6, 1, '2023-12-01 20:00:00'), -- Ejemplo de horario para Película 6
+    (7, 1, '2023-12-02 14:00:00'), -- Ejemplo de horario para Película 7
+    (8, 1, '2023-12-02 16:30:00'), -- Ejemplo de horario para Película 8
+    (9, 1, '2023-12-02 19:00:00');
+GO
+
+
+SELECT * FROM Peliculas;
+SELECT * FROM Calificaciones;
+SELECT * FROM Funciones;

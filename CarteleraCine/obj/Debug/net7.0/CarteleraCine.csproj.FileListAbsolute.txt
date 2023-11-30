@@ -761,3 +761,7 @@ C:\Users\HP\Documents\CarteleraCine\CarteleraCine\bin\Debug\net7.0\JetBrains.Ann
 C:\Users\HP\Documents\CarteleraCine\CarteleraCine\bin\Debug\net7.0\X.PagedList.dll
 C:\Users\HP\Documents\CarteleraCine\CarteleraCine\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
 C:\Users\HP\Documents\CarteleraCine\CarteleraCine\obj\Debug\net7.0\CarteleraCine.MvcApplicationPartsAssemblyInfo.cs
+E:\Proyectos\CarteleraCine\CarteleraCine\bin\Debug\net7.0\JetBrains.Annotations.dll
+E:\Proyectos\CarteleraCine\CarteleraCine\bin\Debug\net7.0\X.PagedList.dll
+E:\Proyectos\CarteleraCine\CarteleraCine\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+E:\Proyectos\CarteleraCine\CarteleraCine\obj\Debug\net7.0\CarteleraCine.MvcApplicationPartsAssemblyInfo.cs
