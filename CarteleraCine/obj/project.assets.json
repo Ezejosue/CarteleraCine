@@ -11209,23 +11209,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\Sofía\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\CarteleraCine.csproj",
+      "projectUniqueName": "C:\\Users\\Sofía\\Documents\\CarteleraCine\\CarteleraCine\\CarteleraCine.csproj",
       "projectName": "CarteleraCine",
-      "projectPath": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\CarteleraCine.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\CarteleraCine\\CarteleraCine\\obj\\",
+      "projectPath": "C:\\Users\\Sofía\\Documents\\CarteleraCine\\CarteleraCine\\CarteleraCine.csproj",
+      "packagesPath": "C:\\Users\\Sofía\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sofía\\Documents\\CarteleraCine\\CarteleraCine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sofía\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11234,7 +11234,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11287,7 +11286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
